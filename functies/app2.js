@@ -12,8 +12,9 @@ class App
 
     Mathfuncation()
     {
-        let result = 2 + 2;
-        console.log(result);
+        let result(getal1, getal2) {
+        console.log(getal1 + getal2);
+    } 
     }
 
 

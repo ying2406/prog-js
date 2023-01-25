@@ -58,7 +58,7 @@ g.closePath();
 g.stroke();
 g.fill();
 
-//raam 
+//window 
 g.beginPath(); 
 g.fillStyle = "magenta";
 g.moveTo(275, 450);
