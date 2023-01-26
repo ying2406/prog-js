@@ -3,11 +3,6 @@ var ctx = canvas.getContext('2d');
 
 function Achtergrond(){
     var ctx = canvas.getContext("2d");
-    var gradient = ctx.createLinearGradient(400, 0, 400, 300);
-    gradient.addColorStop(0, 'pink');
-    gradient.addColorStop(1, 'white');
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, 400, 300);
 }
 
 function house(x, y){ 
@@ -69,18 +64,18 @@ Achtergrond();
 
 
 function Straat(x, y){
-ctx.fillStyle = "black";
+ctx.fillStyle = "red";
 ctx.font = "30px arial";
-ctx.fillText("Happy Holidays", 150, 100);
+ctx.fillText("Happy Holidays", 125, 70);
 //multiple house+boom 
     for (let i = 0; i < 8; i++) {
         house(x, y);
 
+        boom(x+40, y+10);
         house(x+50, y+10);
 
-        boom(x+10, y+80);
         boom(x+80, y+90);
-        boom(x+50, y+100);
+
         
         x = x+100
         y = y+15
