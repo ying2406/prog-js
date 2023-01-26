@@ -1,3 +1,3 @@
 # prog-js
 
-![kerstkaart canvas](https://cdn.discordapp.com/attachments/1024980656591224832/1068077014025785384/image.png)
+![kerstkaart canvas](https://cdn.discordapp.com/attachments/1024980656591224832/1068084387842895872/image.png)
